@@ -1,7 +1,8 @@
 #include<stdio.h>
 void main()
 {
-  int number;
+  long long int number;
+  scanf("%lld",&number);
   if(number & 1)
     printf("Odd");
   else
